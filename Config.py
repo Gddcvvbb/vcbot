@@ -4,9 +4,9 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "21247842"))
     API_HASH = os.environ.get("API_HASH", "9cdb0caff1fae351aa3bcaf997560b7b")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5846369400:AAELi6U-AN92Y-Os7LtlJkdZEI_IFb5aL8I")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", ")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vcplayertes_bot")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
