@@ -3,7 +3,7 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "21247842"))
     API_HASH = os.environ.get("API_HASH", "9cdb0caff1fae351aa3bcaf997560b7b")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5846369400:AAELi6U-AN92Y-Os7LtlJkdZEI_IFb5aL8I")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5846369400:AAFt0S1Jt3CrdFIt8R12tCCMkJvfbXDH_mE)
     STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzUBu1H2D0Sbv8GMjG12Le5mV8KjNWKaTz8laHENvzfsMGYtMD93E_qhKsJznXbQw4UewauDVrLiIQ5Yq7hSjHbqV3AhgcGbt8okc-2wRqcBoxpRzlBKPhmSTBKQAiyIkO-EzZ2g8D3_WYBRZUlI1r2f4NomVh2Qks0vm0W1heD2sJtRMiBla2vC9-oVNSS5QYUQmXYFhZeLIdO0dduqm4ZL9lWY954jG5S_1b9EfeICLHEc0e8OiELUU_MXZdszV_NStX--ZaesMehKlhWx1qe7bl7cr2_iYxaL6ixumWAfmsEKsB4aw-zlKgJUYj9qdfuj5V5xY_ZiXFnxKcb7fmyndeg=")
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Vcplayertes_bot")
